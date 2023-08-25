@@ -4,6 +4,7 @@ import { StyleSheet, Text, View,Image } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
+   
     <Image style={styles.img} source={require("../Omar/assets/myimg.png")} />
       <Text style={styles.textstyl}>Muhammad Umar Farooq</Text>
        <Text style={styles.textstyl2}>201400127</Text>
